@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #d2e1dd;
+  color: #333;
+  font-family: "Verdana", sans-serif;
+  font-size: 14px;
+}
+
+article {
+  background: white;
+  padding: 40px;
+  width: 70%;
+  margin: auto;
+}
+
+header h1 {
+  font-size: 20px;
+}
+/*# sourceMappingURL=main.css.map */

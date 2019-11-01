@@ -1,0 +1,44 @@
+*
+    margin: 0
+    padding: 0
+
+// VARIABLES
+// ===================================
+$black: #333
+$pale: #d2e1dd
+$pink: #c69
+$blue: #036
+
+$font-stack: 'Verdana', sans-serif
+$font-size: 14px
+
+
+// STYLES
+// ====================================
+body
+    background: $pale
+    color: $black
+    font-family: $font-stack
+    font-size: $font-size
+
+article
+    background: white
+    padding: 40px
+    width: 70%
+    margin: auto
+
+header
+    h1
+        font-size: $font-size + 6
+
+
+// MIXINS
+// ====================================
+@mixin circle($rad, $h, $w, $bg, $c)
+    -webkit-border-radius: $rad
+    -moz-border-radius: $rad
+    -ms-border-radius: $rad
+    border-radius: $rad
+
+    height: $h
+    background: $bg
